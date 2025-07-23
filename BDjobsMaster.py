@@ -32,7 +32,7 @@ ENABLE_EMAIL_ALERTS = True
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 EMAIL_SENDER = "ahbabzami3@gmail.com"
-EMAIL_PASSWORD = "vtxs zhuu jyvo peob"  # Gmail App Password
+EMAIL_PASSWORD = "**** **** **** ****"  # Gmail App Password
 EMAIL_RECEIVER = "ahbabzami2@gmail.com"
 
 # ✅ Setup Logging
