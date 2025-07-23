@@ -33,7 +33,10 @@ SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 EMAIL_SENDER = "ahbabzami3@gmail.com"
 EMAIL_PASSWORD = "**** **** **** ****"  # Gmail App Password
-EMAIL_RECEIVER = "ahbabzami2@gmail.com"
+EMAIL_RECEIVERS = [
+    "22-48108-2@student.aiub.edu",
+    "22-48091-2@student.aiub.edu"
+]
 
 # ✅ Setup Logging
 os.makedirs(LOG_DIR, exist_ok=True)
@@ -59,16 +62,20 @@ def send_email(subject, body):
     try:
         msg = MIMEMultipart()
         msg["From"] = EMAIL_SENDER
-        msg["To"] = EMAIL_RECEIVER
+        msg["To"] = ", ".join(EMAIL_RECEIVERS)  # show all in email header
         msg["Subject"] = subject
         msg.attach(MIMEText(body, "plain"))
 
         with smtplib.SMTP(SMTP_SERVER, SMTP_PORT) as server:
             server.starttls()
             server.login(EMAIL_SENDER, EMAIL_PASSWORD)
-            server.sendmail(EMAIL_SENDER, EMAIL_RECEIVER, msg.as_string())
+            server.sendmail(
+                EMAIL_SENDER,
+                EMAIL_RECEIVERS,  # send to all
+                msg.as_string()
+            )
 
-        logging.info(f"📧 Email sent: {subject}")
+        logging.info(f"📧 Email sent to: {', '.join(EMAIL_RECEIVERS)}")
     except Exception as e:
         logging.error(f"❌ Failed to send email alert: {e}")
 
