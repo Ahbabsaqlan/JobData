@@ -1,0 +1,33 @@
+2025-07-23 05:35:39,729 [INFO] 🚀 Scraper started
+2025-07-23 05:35:40,700 [INFO] --- Collecting Job IDs from 2 pages ---
+2025-07-23 05:35:43,697 [INFO] ✅ Page 1: Found 20 job IDs. Total: 20
+2025-07-23 05:35:45,287 [INFO] ✅ Page 2: Found 20 job IDs. Total: 40
+2025-07-23 05:35:45,381 [INFO] --- Finished ID collection ---
+2025-07-23 05:35:45,381 [INFO] 🔎 Total unique IDs collected: 40
+2025-07-23 05:35:45,472 [INFO] 📂 Existing jobs in master: 19
+2025-07-23 05:35:45,473 [INFO] 🆕 New jobs to scrape: 21
+2025-07-23 05:35:45,473 [INFO] ✅ Filtered out 19 already-scraped jobs.
+2025-07-23 05:35:45,718 [INFO] ✅ Scraped 1/21: Best Buy Pharma-Sales Executive
+2025-07-23 05:35:46,260 [INFO] ✅ Scraped 2/21: Asst. Manager- IT
+2025-07-23 05:35:46,781 [INFO] ✅ Scraped 3/21: Territory Sales Officer, Ranks Petroleum Limited
+2025-07-23 05:35:47,303 [INFO] ✅ Scraped 4/21: Officer, Admission & Information
+2025-07-23 05:35:47,852 [INFO] ✅ Scraped 5/21: Head of HR & Administration
+2025-07-23 05:35:48,405 [INFO] ✅ Scraped 6/21: Principal
+2025-07-23 05:35:48,942 [INFO] ✅ Scraped 7/21: Quality Control Assistant
+2025-07-23 05:35:49,487 [INFO] ✅ Scraped 8/21: E-Commerce Logistics Incharge
+2025-07-23 05:35:49,997 [INFO] ✅ Scraped 9/21: Business Manager
+2025-07-23 05:35:50,521 [INFO] ✅ Scraped 10/21: Auditor Ecology
+2025-07-23 05:35:51,043 [INFO] ✅ Scraped 11/21: Accounts & Finance - Manager
+2025-07-23 05:35:51,600 [INFO] ✅ Scraped 12/21: Sales Operation Manager
+2025-07-23 05:35:52,110 [INFO] ✅ Scraped 13/21: Executive - Global Talent Acquisition
+2025-07-23 05:35:52,624 [INFO] ✅ Scraped 14/21: Digital Marketing Specialist
+2025-07-23 05:35:53,148 [INFO] ✅ Scraped 15/21: Monitoring & Evaluation Officer
+2025-07-23 05:35:53,676 [INFO] ✅ Scraped 16/21: Administrative Assistant (Remote)
+2025-07-23 05:35:54,204 [INFO] ✅ Scraped 17/21: Patient Care Assistant
+2025-07-23 05:35:54,781 [INFO] ✅ Scraped 18/21: Lecturer (CSE)
+2025-07-23 05:35:55,356 [INFO] ✅ Scraped 19/21: Assistant Professor (CSE)
+2025-07-23 05:35:55,870 [INFO] ✅ Scraped 20/21: Pattern Master
+2025-07-23 05:35:56,452 [INFO] ✅ Scraped 21/21: Digital Marketing Executive (Day Shift)
+2025-07-23 05:35:56,810 [INFO] ✅ Merged into master. Total unique jobs: 40
+2025-07-23 05:36:01,029 [INFO] 📧 Email sent: Bdjobs Scraper: Completed ✅
+2025-07-23 05:36:01,029 [INFO] 🏁 Scraper finished successfully.

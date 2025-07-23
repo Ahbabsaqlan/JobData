@@ -1,0 +1,30 @@
+2025-07-23 06:40:01,838 [INFO] 🚀 Scraper started
+2025-07-23 06:40:15,639 [INFO] --- Collecting Job IDs from 3 pages ---
+2025-07-23 06:40:22,534 [INFO] ✅ Page 1: Found 20 job IDs. Total: 20
+2025-07-23 06:40:25,336 [INFO] ✅ Page 2: Found 20 job IDs. Total: 40
+2025-07-23 06:40:27,877 [INFO] ✅ Page 3: Found 20 job IDs. Total: 60
+2025-07-23 06:40:28,013 [INFO] --- Finished ID collection ---
+2025-07-23 06:40:28,013 [INFO] 🔎 Total unique IDs collected: 60
+2025-07-23 06:40:28,117 [INFO] 📂 Existing jobs in master: 43
+2025-07-23 06:40:28,117 [INFO] 🆕 New jobs to scrape: 17
+2025-07-23 06:40:28,117 [INFO] ✅ Filtered out 43 already-scraped jobs.
+2025-07-23 06:40:28,373 [INFO] ✅ Scraped 1/17: Computer Operator
+2025-07-23 06:40:29,213 [INFO] ✅ Scraped 2/17: Sr. Executive, Sales/Marketing (Garments Machinery)
+2025-07-23 06:40:30,131 [INFO] ✅ Scraped 3/17: Branch Manager, Labaid Limited (Diagnostics)
+2025-07-23 06:40:30,833 [INFO] ✅ Scraped 4/17: Managing Editor
+2025-07-23 06:40:31,561 [INFO] ✅ Scraped 5/17: SHOWROOM MANAGER
+2025-07-23 06:40:32,434 [INFO] ✅ Scraped 6/17: Remote HR Specialist
+2025-07-23 06:40:33,479 [INFO] ✅ Scraped 7/17: Senior Sales Executive (Interior Items)
+2025-07-23 06:40:34,176 [INFO] ✅ Scraped 8/17: Security Commander
+2025-07-23 06:40:34,857 [INFO] ✅ Scraped 9/17: Marketing Executive (Fabric)
+2025-07-23 06:40:35,442 [INFO] ✅ Scraped 10/17: Territory Sales Manager- TSM
+2025-07-23 06:40:36,177 [INFO] ✅ Scraped 11/17: Electrical Engineer
+2025-07-23 06:40:37,013 [INFO] ✅ Scraped 12/17: House Governance (Childcare Giver/Nanny)
+2025-07-23 06:40:37,686 [INFO] ✅ Scraped 13/17: Senior Medical Officer
+2025-07-23 06:40:38,480 [INFO] ✅ Scraped 14/17: Female Team Manager (Urgent Need 10 Females)
+2025-07-23 06:40:39,244 [INFO] ✅ Scraped 15/17: Management Trainee Executive
+2025-07-23 06:40:39,889 [INFO] ✅ Scraped 16/17: Team Leader / Assistant Manager - Quality Controller
+2025-07-23 06:40:40,488 [INFO] ✅ Scraped 17/17: Front Office Executive
+2025-07-23 06:40:40,915 [INFO] ✅ Merged into master. Total unique jobs: 60
+2025-07-23 06:40:45,733 [INFO] 📧 Email sent: Bdjobs Scraper: Completed ✅
+2025-07-23 06:40:45,733 [INFO] 🏁 Scraper finished successfully.

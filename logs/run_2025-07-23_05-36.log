@@ -1,0 +1,11 @@
+2025-07-23 05:36:10,504 [INFO] 🚀 Scraper started
+2025-07-23 05:36:12,162 [INFO] --- Collecting Job IDs from 2 pages ---
+2025-07-23 05:36:16,316 [INFO] ✅ Page 1: Found 20 job IDs. Total: 20
+2025-07-23 05:36:18,368 [INFO] ✅ Page 2: Found 20 job IDs. Total: 40
+2025-07-23 05:36:18,464 [INFO] --- Finished ID collection ---
+2025-07-23 05:36:18,465 [INFO] 🔎 Total unique IDs collected: 40
+2025-07-23 05:36:18,550 [INFO] 📂 Existing jobs in master: 40
+2025-07-23 05:36:18,550 [INFO] 🆕 New jobs to scrape: 0
+2025-07-23 05:36:18,550 [INFO] ✅ Filtered out 40 already-scraped jobs.
+2025-07-23 05:36:18,550 [INFO] ✅ No new jobs found. Scraper finished.
+2025-07-23 05:36:22,149 [INFO] 📧 Email sent: Bdjobs Scraper: No new jobs ✅

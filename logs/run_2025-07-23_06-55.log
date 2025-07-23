@@ -1,0 +1,67 @@
+2025-07-23 06:55:01,556 [INFO] 🚀 Scraper started
+2025-07-23 06:55:02,243 [INFO] --- Collecting Job IDs from 3 pages ---
+2025-07-23 06:55:10,874 [ERROR] ❌ Error on page 1: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=138.0.7204.158)
+Stacktrace:
+0   chromedriver                        0x0000000100ee3570 cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x0000000100edb468 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x0000000100a2a3f8 cxxbridge1$string$len + 90664
+3   chromedriver                        0x0000000100a151fc cxxbridge1$string$len + 4140
+4   chromedriver                        0x0000000100a14f74 cxxbridge1$string$len + 3492
+5   chromedriver                        0x0000000100a13f90 chromedriver + 196496
+6   chromedriver                        0x0000000100a363b8 cxxbridge1$string$len + 139752
+7   chromedriver                        0x0000000100ab2dbc cxxbridge1$string$len + 650220
+8   chromedriver                        0x0000000100a65a0c cxxbridge1$string$len + 333884
+9   chromedriver                        0x0000000100ea65f4 cxxbridge1$str$ptr + 2481340
+10  chromedriver                        0x0000000100ea985c cxxbridge1$str$ptr + 2494244
+11  chromedriver                        0x0000000100e87248 cxxbridge1$str$ptr + 2353424
+12  chromedriver                        0x0000000100eaa118 cxxbridge1$str$ptr + 2496480
+13  chromedriver                        0x0000000100e782f8 cxxbridge1$str$ptr + 2292160
+14  chromedriver                        0x0000000100eca00c cxxbridge1$str$ptr + 2627284
+15  chromedriver                        0x0000000100eca198 cxxbridge1$str$ptr + 2627680
+16  chromedriver                        0x0000000100edb0a4 cxxbridge1$str$ptr + 2697068
+17  libsystem_pthread.dylib             0x000000019eed6c0c _pthread_start + 136
+18  libsystem_pthread.dylib             0x000000019eed1b80 thread_start + 8
+
+2025-07-23 06:55:10,924 [ERROR] ❌ Error on page 2: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x0000000100ee3570 cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x0000000100edb468 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x0000000100a2a26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x0000000100a64ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x0000000100a8d4c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x0000000100a8c7d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x00000001009f93d4 chromedriver + 86996
+7   chromedriver                        0x0000000100ea65f4 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x0000000100ea985c cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x0000000100e87248 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x0000000100eaa118 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x0000000100e782f8 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x00000001009f7664 chromedriver + 79460
+13  dyld                                0x000000019eb36b98 start + 6076
+
+2025-07-23 06:55:10,924 [ERROR] ❌ Error on page 3: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x0000000100ee3570 cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x0000000100edb468 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x0000000100a2a26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x0000000100a64ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x0000000100a8d4c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x0000000100a8c7d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x00000001009f93d4 chromedriver + 86996
+7   chromedriver                        0x0000000100ea65f4 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x0000000100ea985c cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x0000000100e87248 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x0000000100eaa118 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x0000000100e782f8 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x00000001009f7664 chromedriver + 79460
+13  dyld                                0x000000019eb36b98 start + 6076
+
+2025-07-23 06:55:10,942 [INFO] --- Finished ID collection ---
+2025-07-23 06:55:10,942 [INFO] 🔎 Total unique IDs collected: 0
+2025-07-23 06:55:11,046 [INFO] 📂 Existing jobs in master: 61
+2025-07-23 06:55:11,046 [INFO] 🆕 New jobs to scrape: 0
+2025-07-23 06:55:11,046 [WARNING] ⚠️ No filtering happened – possible master file mismatch?
+2025-07-23 06:55:11,046 [INFO] ✅ No new jobs found. Scraper finished.
+2025-07-23 06:55:14,592 [INFO] 📧 Email sent: Bdjobs Scraper: No new jobs ✅

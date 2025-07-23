@@ -1,0 +1,30 @@
+2025-07-23 04:35:44,527 [INFO] 🚀 Scraper started
+2025-07-23 04:35:54,955 [INFO] --- Collecting Job IDs from 1 pages ---
+2025-07-23 04:35:59,213 [INFO] ✅ Page 1: Found 20 job IDs. Total: 20
+2025-07-23 04:35:59,304 [INFO] --- Finished ID collection ---
+2025-07-23 04:35:59,304 [INFO] 🔎 Total unique IDs collected: 20
+2025-07-23 04:35:59,304 [INFO] 📂 Existing jobs in master: 0
+2025-07-23 04:35:59,304 [INFO] 🆕 New jobs to scrape: 20
+2025-07-23 04:35:59,689 [INFO] ✅ Scraped 1/20: Territory Sales Manager
+2025-07-23 04:35:59,970 [INFO] ✅ Scraped 2/20: SMO / Territory Sales Officer
+2025-07-23 04:36:00,232 [INFO] ✅ Scraped 3/20: Assistant Teacher (Chemistry)
+2025-07-23 04:36:00,527 [INFO] ✅ Scraped 4/20: Media and Communication Manager
+2025-07-23 04:36:00,803 [INFO] ✅ Scraped 5/20: Sales Executive (Female)
+2025-07-23 04:36:01,063 [INFO] ✅ Scraped 6/20: Head of Factory (Operations) - Knit Composite Garment Factory
+2025-07-23 04:36:01,320 [INFO] ✅ Scraped 7/20: Student Counselor
+2025-07-23 04:36:01,590 [INFO] ✅ Scraped 8/20: জুট ম্যানেজার
+2025-07-23 04:36:01,853 [INFO] ✅ Scraped 9/20: Asst. Teacher / Teacher
+2025-07-23 04:36:02,102 [INFO] ✅ Scraped 10/20: Marketing & Sales Development Manager
+2025-07-23 04:36:02,375 [INFO] ✅ Scraped 11/20: General Manager (Advertising & Marketing)
+2025-07-23 04:36:02,638 [INFO] ✅ Scraped 12/20: Sales Representative
+2025-07-23 04:36:02,928 [INFO] ✅ Scraped 13/20: Billing Executive (Accounts)
+2025-07-23 04:36:03,262 [INFO] ✅ Scraped 14/20: Human Resource Business Partner (HRBP)
+2025-07-23 04:36:03,560 [INFO] ✅ Scraped 15/20: International Client Service Officer
+2025-07-23 04:36:03,818 [INFO] ✅ Scraped 16/20: Senior UX Designer – Team Lead
+2025-07-23 04:36:04,108 [INFO] ✅ Scraped 17/20: Digital Media QA Processing Specialist (Night Shift)
+2025-07-23 04:36:04,375 [INFO] ✅ Scraped 18/20: Manager/Asst. Manager (Production) - Sewing Thread Unit
+2025-07-23 04:36:04,651 [INFO] ✅ Scraped 19/20: Technical Customer Support Engineer
+2025-07-23 04:36:04,902 [INFO] ✅ Scraped 20/20: Digital Marketing Executive (Day Shift)
+2025-07-23 04:36:05,086 [INFO] ✅ Created new master file with 20 jobs.
+2025-07-23 04:36:17,146 [INFO] 📧 Email sent: Bdjobs Scraper: Completed ✅
+2025-07-23 04:36:17,146 [INFO] 🏁 Scraper finished successfully.
