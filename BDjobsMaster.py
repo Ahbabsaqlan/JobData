@@ -19,8 +19,8 @@ from selenium.common.exceptions import TimeoutException
 # ✅ Always use absolute paths
 BASE_DIR = "/Users/jihan/JobData"  # <-- change this if you move script
 
-PAGES_TO_SCRAPE = 50
-JOBS_PER_PAGE = 100
+PAGES_TO_SCRAPE = 3
+JOBS_PER_PAGE = 10
 API_URL_TEMPLATE = "https://gateway.bdjobs.com/ActtivejobsTest/api/JobSubsystem/jobDetails?jobId={}"
 REQUEST_DELAY = 0.3
 
@@ -78,6 +78,7 @@ def send_email(subject, body):
         logging.info(f"📧 Email sent to: {', '.join(EMAIL_RECEIVERS)}")
     except Exception as e:
         logging.error(f"❌ Failed to send email alert: {e}")
+
 
 # ================= HELPER FUNCTIONS ================= #
 def extract_list_from_html(raw_html):

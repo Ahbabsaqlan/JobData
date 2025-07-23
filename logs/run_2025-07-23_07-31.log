@@ -1,0 +1,12 @@
+2025-07-23 07:31:25,586 [INFO] 🚀 Scraper started
+2025-07-23 07:31:26,590 [INFO] --- Collecting Job IDs from 3 pages ---
+2025-07-23 07:31:29,554 [INFO] ✅ Page 1: Found 20 job IDs. Total: 20
+2025-07-23 07:31:31,368 [INFO] ✅ Page 2: Found 20 job IDs. Total: 40
+2025-07-23 07:31:33,041 [INFO] ✅ Page 3: Found 20 job IDs. Total: 60
+2025-07-23 07:31:33,136 [INFO] --- Finished ID collection ---
+2025-07-23 07:31:33,137 [INFO] 🔎 Total unique IDs collected: 60
+2025-07-23 07:31:33,236 [INFO] 📂 Existing jobs in master: 62
+2025-07-23 07:31:33,236 [INFO] 🆕 New jobs to scrape: 0
+2025-07-23 07:31:33,236 [INFO] ✅ Filtered out 60 already-scraped jobs.
+2025-07-23 07:31:33,236 [INFO] ✅ No new jobs found. Scraper finished.
+2025-07-23 07:31:35,979 [ERROR] ❌ Failed to send email alert: 'list' object has no attribute 'encode'
